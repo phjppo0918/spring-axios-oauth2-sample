@@ -1,6 +1,6 @@
 # 개요
 기존에 sering oauth2 client 사용하려고 oauth2 프로세스를 다음과 같이 잡았음.
-![image](https://github.com/phjppo0918/spring-axios-oauth2-sample/assets/55674648/388d73a1-db4f-47d9-bee6-de52904f4dcf)
+<img width="1173" alt="image" src="https://github.com/phjppo0918/spring-axios-oauth2-sample/assets/55674648/e84d8810-ff1d-4747-b346-9b4552ace29b">
 
 이렇게 하면 장점은 확실히 있음
 - client-id, secret key만 입력하면 oauth2 client가 뚝딱 다 해줘
@@ -14,7 +14,9 @@
 
 
 그래서 oauth2 client 손절치고 다음 프로세스로 수정
-![image](https://github.com/phjppo0918/spring-axios-oauth2-sample/assets/55674648/3f5207e9-2c98-4435-ae57-100b83dd269b)
+<img width="1160" alt="image" src="https://github.com/phjppo0918/spring-axios-oauth2-sample/assets/55674648/db4b43d8-f79f-4f04-a612-adb68fab9918">
+
+- 원래 제대로 그릴려면 provider를 authorization / resource 나눠야함. 다시 그릴려했는데, 횡 길이 추가하면 그림이 깨지네...
 # 진행 과정
 1. 사용자 로그인 버튼 딸깍 -> 일로 이동 (http://localhost:8080/api/auth/redirect/kakao)
 2. 서버에게 kakao redirect uri 받기 
