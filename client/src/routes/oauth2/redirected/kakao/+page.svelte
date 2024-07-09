@@ -14,8 +14,7 @@
         const code = $page.url.searchParams.get('code')
 
         axios.post("/auth/login/kakao?code="+code).then(res => {
-            alert(res)
-            console.log(res)
+            alert(res.data.accessToken+ " " + res.data.refreshToken)
         })
     });
 
