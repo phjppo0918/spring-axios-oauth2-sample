@@ -1,4 +1,4 @@
-package kr.kro.dokbaro.server
+package kr.kro.dokbaro.server.configuration
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

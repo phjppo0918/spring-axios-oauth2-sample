@@ -8,7 +8,7 @@ spring:
 oauth2:
   kakao:
     redirect-uri: http://localhost:5173/oauth2/redirected/kakao
-    client-id: 9f13c33939922dce6ea07f9d392e319d
+    client-id: 453049e22bab83f704ea07c2f9142725
     secret-key: iangLE0GYUirQIkUaJOi7hae0g7rT1Ya
     scope:
       - profile_nickname
@@ -17,4 +17,9 @@ oauth2:
     token-uri: https://kauth.kakao.com/oauth/token
     user-info-uri: https://kapi.kakao.com/v2/user/me
     user-name-attribute: id
+    grant-type: authorization_code
 
+feign:
+  autoconfiguration:
+    jackson:
+      enabled: true
