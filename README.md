@@ -27,22 +27,24 @@
 
 
 # KAKAO Application 등록 방법
-1. https://developers.kakao.com 들가서 만들어
+1. https://developers.kakao.com 들가서 만들어 <br>
 <img width="929" alt="image" src="https://github.com/phjppo0918/spring-axios-oauth2-sample/assets/55674648/4d9b4c77-d951-49db-ac52-2753616b2699">
-2. 제품설정 -> 카카오 로그인 -> Redirect URI 등록
+2. 제품설정 -> 카카오 로그인 -> Redirect URI 등록 <br>
 <img width="931" alt="image" src="https://github.com/phjppo0918/spring-axios-oauth2-sample/assets/55674648/202b43cd-45dc-4f19-8abf-308d0371254e">
+<br>
 위 예시에서는 http://localhost:5173/oauth2/redirected/kakao 로 redirect 보냈음
-
-3.  제품설정 -> 카카오 로그인 -> 동의항목
+<br>
+3.  제품설정 -> 카카오 로그인 -> 동의항목 <br>
 <img width="1100" alt="image" src="https://github.com/phjppo0918/spring-axios-oauth2-sample/assets/55674648/fd530b57-7dab-4ee1-a14f-e0ca362b3f9d">
 
-4. 제품설정 -> 카카오 로그인 -> 보안 - > secret key 발급
+4. 제품설정 -> 카카오 로그인 -> 보안 - > secret key 발급 <br>
 <img width="1086" alt="image" src="https://github.com/phjppo0918/spring-axios-oauth2-sample/assets/55674648/59380dc2-925d-4044-9b9f-cf1f167b0e26">
+<br>
 발급한 이후에 활성화 딸깍
-
-5. 환경변수 등록
-client-id : 앱설정 -> 앱 키
-client-secret : 보안 -> 발급받은 setret key
+<br>
+5. 환경변수 등록 <br>
+client-id : 앱설정 -> 앱 키 <br>
+client-secret : 보안 -> 발급받은 setret key <br>
 
 
 # KAKAO 문서
